@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--link-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!--Bootswach-->
+    <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+    <title>Desafio Operadores avanzado + Librerias</title>
+</head>
+
+<body>
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                 <!--Inicio-->
+              <a class="navbar-brand" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse show" id="navbarColor01" >
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <!--Productos-->
+                    <a class="nav-link active" href="#"> Productos
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                     <!--Contactate-->
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                </ul>
+
+               <!--Carrito-->
+                 <ul class="navbar-na me-auto"> 
+                    <li class="nav-item " style="list-style: none;">
+                        <button class="btn btn-warning" clas="iconCheck" id="carrito"><i class="fas fa-shopping-cart"></i></button>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+    </header>
+
+    <main>
+        <h1 class="text-center mt-5 mb-5 ">Productos Azafran</h1>
+
+<div class="row " id="divProductos"></div>
+    </main>
+</body>
+
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.24/dist/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</html>
